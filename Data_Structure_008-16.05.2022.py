@@ -1,27 +1,27 @@
-stack=[]
+s=[]
 
-def isEmpty(stack):
-    return len(stack) == 0
+def empty(s):
+    return len(s) == 0
 
-def push(stack,item):
-     stack.append(item)
+def push(s,item):
+     s.append(item)
      print(item,"pushed inside the stack")
 
-def pop(stack):
-    n=stack.pop()
+def pop(s):
+    n=s.pop()
     print(n,"popped from the stack")
 
-def peek(stack):
+def peek(s):
     print("Elements in stack: ")
-    for i in stack:
+    for i in s:
         print(i,end=" ")
 
 
-push(stack, str(10))
-push(stack, str(20))
-push(stack, str(30))
-print(pop(stack))
-peek(stack)
+push(s, str(10))
+push(s, str(20))
+push(s, str(30))
+pop(s)
+peek(s)
 print()
-n=len(stack)
-print("Top Element: ", stack[n-1])
+n=len(s)
+print("Top Element: ", s[n-1])
