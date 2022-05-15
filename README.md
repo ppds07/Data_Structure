@@ -25,3 +25,7 @@ i)   Beginning of the list
 ii)  End of the list
 iii) At any given position 
 -> 007 is the program using the concept of singly linked list initialization and insertion.
+
+# 16.05.2022
+-> Program to implement the concept of stack using array concept. Array is purely used to do the operations that are done in stack.
+-> 008 is the program implementing the stack concept using array.
